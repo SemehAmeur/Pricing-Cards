@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(29, 29, 29);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5rem 10rem;
+}
+.badge{
+    text-transform: uppercase;
+    color: deeppink;
+    font-size: 14px;
+    text-shadow: 1px 1px black;
+}
+.heading{
+    color: white;
+    font-size: 30px;
+    margin: 20px 0;
+    text-shadow: 2px 1px 1px black;
+}
+.card-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.pricing-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+    width: 275px;
+    margin: 20px 30px;
+    padding: 16px 14px;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px darkgoldenrod;
+    transition: 0.5s ease-in-out;
+}
+.pricing-card i{
+    color: darkgoldenrod;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    box-shadow: 0 0 34px -12px gray;
+    border-radius: 50%;
+}
+span{
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    margin: -10px 0;
+}
+.price{
+    font-size: 30px;
+    color: white;
+    text-shadow: 3px 3px black;    
+}
+.package-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+}
+li{
+    list-style: none;
+    color: white;
+    font-size: 14px;
+    margin: 6px 0;
+}
+.get-started-btn{
+    color: black;
+    background-color: darkgoldenrod;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    box-shadow: 2px 2px black;
+    text-shadow: 1px 1px black;
+}
+.get-started-btn:hover{
+    background: transparent;
+    color: crimson;
+}
